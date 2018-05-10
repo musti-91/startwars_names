@@ -1,6 +1,6 @@
 {
-  "name": "startwars_names",
-  "version": "1.0.0",
+  "name": "musti_startwars_names",
+  "version": "1.1.0",
   "description": "Get random starwars names",
   "main": "src/index.js",
   "scripts": {
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/musti-91/startwars_names.git"
   },
-  "keywords": [
-    "random",
-    "starwars"
-  ],
+  "keywords": ["random", "starwars"],
   "author": "Mustafa Alroomi <mustafa.alroomi.91@gmail.com>",
   "license": "MIT",
   "bugs": {
