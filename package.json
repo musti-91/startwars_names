@@ -1,14 +1,17 @@
 {
   "name": "musti_startwars_names",
-  "version": "1.2.0-beta-0",
+  "version": "0.0.0-development",
   "description": "Get random starwars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "sem-rel": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musti-91/startwars_names.git"
+    "url": "https://github.com/musti-91/startwars_names.git"
   },
   "keywords": ["random", "starwars"],
   "author": "Mustafa Alroomi <mustafa.alroomi.91@gmail.com>",
@@ -19,5 +22,16 @@
   "homepage": "https://github.com/musti-91/startwars_names#readme",
   "dependencies": {
     "unique-random-array": "1.0.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.1.1",
+    "semantic-release": "^15.4.0",
+    "travis-deploy-once": "^5.0.0"
+  },
+  "czCdonfig": {
+    "path": "node_modules/cz-conventional-chnagelog"
   }
 }

@@ -1,6 +1,6 @@
-var starwars_names = require("starwars-names");
+var starwars_names = require("./starwars-names.json");
 var unique = require("unique-random-array");
 module.exports = {
-  all,
+  all: starwars_names,
   random: unique(starwars_names)
 };
